@@ -1,0 +1,403 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main_container {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  border: none;
+}
+
+.menu_img {
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  width: 1440px;
+  height: 1070px;
+  background-image: url("/lessons/test/test1/images/bg.png");
+  background-size: 1440px 872px;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 80px;
+  top: 0px;
+  background: #111111;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  Font-family: Rubik;
+  Font-style: Regular;
+  Font-size: 18px;
+  Line-height: 24px;
+  Line-height: 113%;
+  vertical-align: Center;
+}
+header p {
+  color: white;
+  text-decoration: none;
+  Font-family: Rubik;
+  Font-style: Regular;
+  Font-size: 18px;
+  Line-height: 24px;
+  Line-height: 113%;
+  vertical-align: Center;
+}
+header img {
+  padding: 64px;
+}
+
+.banner {
+  padding-left: 64px;
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 984px;
+  background: url("/lessons/test/test1/images/MaskGroup.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.banner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+.banner h1 {
+  font-family: Rubik;
+  font-size: 144px;
+  font-weight: 700;
+  line-height: 152px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+}
+.banner p {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 672px;
+}
+.banner h2 {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner span p {
+  max-width: 416px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+.discount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 926px;
+  width: 1440px;
+  background-color: black;
+}
+.discount .discount_container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 85px;
+}
+.discount .discount_container h2 {
+  width: 60%;
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.discount .discount_container span {
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FCB500;
+}
+.discount .price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.discount .price h2 {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #adadad;
+  padding-right: 32px;
+  text-decoration: line-through;
+}
+.discount .price span {
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.discount .info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.discount .info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.discount .info div img {
+  padding-bottom: 78px;
+}
+.discount .info div p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+.discount .info div span {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FCB500;
+}
+.discount .info .special img {
+  padding-bottom: 45px;
+}
+.discount .info .special h2 {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-align: center;
+}
+.discount .info .special span {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FCB500;
+  padding-top: 5px;
+}
+.discount .order_btn {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 256px;
+  height: 56px;
+  background: #FCB500;
+  border-radius: 7px;
+  margin-top: 64px;
+}
+
+@media (max-width: 1439px) {
+  .main_container {
+    min-width: 1024px;
+  }
+  .main_container main {
+    max-width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .main_container header {
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: fit-content;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .main_container header img {
+    padding: 15px;
+    order: 2;
+    margin-top: -25px;
+  }
+  .main_container header a {
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  .main_container header P {
+    padding-left: 15px;
+  }
+  .main_container header a:last-of-type {
+    align-self: flex-end;
+    order: 2;
+    margin-top: 15px;
+  }
+  .main_container .banner {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 630px;
+    background: url("/lessons/test/test1/images/MaskGroup.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 550px 550px;
+  }
+  .main_container .banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+  }
+  .main_container .banner h1 {
+    padding-left: 15px;
+    margin-top: -80px;
+    font-family: Rubik;
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    align-self: flex-start;
+  }
+  .main_container .banner h2 {
+    padding-left: 15px;
+  }
+  .main_container .banner p {
+    padding-left: 15px;
+  }
+  .discount {
+    max-width: 100%;
+  }
+  .discount .discount_container h2 {
+    width: 80%;
+  }
+}
+@media (max-width: 1023px) {
+  .main_container {
+    min-width: 768px;
+  }
+  .main_container .banner {
+    padding-left: 0px;
+  }
+  .main_container .banner p {
+    max-width: 580px;
+    padding-left: 10px;
+  }
+  .main_container .banner h1 {
+    padding-left: 10px;
+  }
+  .main_container .banner h2 {
+    padding-left: 10px;
+  }
+  ._a {
+    display: none;
+  }
+  .info img {
+    width: 100px;
+    height: 100px;
+  }
+  .info .special img {
+    width: 400px;
+    height: 100px;
+  }
+}
+@media (max-width: 425px) {
+  .main_container {
+    min-width: 320px;
+  }
+  .main_container main {
+    max-width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .main_container .banner {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background: none;
+    text-align: center;
+  }
+  .main_container .banner h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .main_container .banner p {
+    text-align: center;
+    width: 310px;
+  }
+  .main_container .banner h2 {
+    text-align: center;
+  }
+  .discount {
+    max-width: 100%;
+  }
+  .discount .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .discount .info img {
+    display: none;
+  }
+  .discount .info div {
+    order: 2;
+  }
+  .discount .info .special {
+    order: 1;
+  }
+  .discount .discount_container h2 {
+    font-size: 36px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
